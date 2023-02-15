@@ -1,0 +1,22 @@
+<!--pages/user/user.wxml-->
+<!---登录-->
+<view class="top_root" wx:if="{{name}}">
+    <image class="top_img" src="{{path}}"></image>
+    <view>
+        <view class="top_name">{{name}}</view>
+            <view class="login_out" bindtap="loginOut">退出登录</view>
+    </view>
+</view>
+<!----未登录-->
+<view wx:else class="top_root">
+    <image src="/icon/未登录头象.png" class="top_img"></image>  
+    <view class="top_name" bindtap="getUsername">点击登录</view> 
+</view>
+<!----条目 -->
+<navigator url="/pages/info/info">
+<van-cell title="个人信息" is-link />
+</navigator>
+<navigator url="/pages/jsfabu/fabu">
+<van-cell  title="教师发布" is-link />
+</navigator>
+

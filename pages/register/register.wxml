@@ -1,0 +1,18 @@
+<!--pages/register/register.wxml-->
+<form bindsubmit="register">
+    <view class="root_top">
+     <view class="item">
+         <text>学号：</text>
+         <input placeholder="请输入您的学号"name="id" type="text"/>
+     </view>
+     <view class="item">
+         <text>密码：</text>
+         <input placeholder="请输入您的密码" name="password"type="password"/>
+     </view>
+     
+</view>
+<button class="btn"form-type="submit">注册</button>
+
+</form>
+    
+

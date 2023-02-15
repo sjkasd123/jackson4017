@@ -1,0 +1,6 @@
+/* pages/info/info.wxss */
+.btn1{
+    background: #2b4b6b;
+    color: white;
+    margin: 40rpx 100rpx;
+}

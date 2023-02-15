@@ -1,0 +1,20 @@
+<!--pages/login/login.wxml-->
+<view class="top">
+<image class="logo"src="/icon/j2.jpg" mode="widthFix"/>
+<view>账号登录</view>
+</view>
+<!---输入--->
+<view class="item">
+    <view>账号:</view>
+    <input placeholder="请输入您的账号"bindinput="userId" type="text"/>
+</view>
+<view class="item">
+    <view>密码：</view>
+    <input bindinput="userPsw"placeholder="请输入密码" type="password"/>
+</view>
+<button class="btn"bindtap="loginBtn">登录</button>
+<navigator url="/pages/register/register">
+<view class="zhuce">
+    暂无账号？快速注册
+</view>
+</navigator>

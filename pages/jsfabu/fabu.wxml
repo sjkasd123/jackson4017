@@ -1,0 +1,290 @@
+<!--pages/jsfabu/fabu.wxml-->
+<form bindsubmit="fabu">
+<van-cell-group>
+  <van-field
+    value="{{ text1 }}"
+    required
+    clearable
+    label="教师发布1："
+    placeholder="请输入内容"
+    bind:click-icon="onClickIcon"
+  />
+
+  <van-field
+    value="{{ text2 }}"
+    label="教师发布2："
+    placeholder="请输入内容"
+    required
+    border="{{ false }}"
+  />
+  <van-field
+    value="{{ text3 }}"
+    label="教师发布3："
+    placeholder="请输入内容"
+    required
+    border="{{ false }}"
+  />
+  <van-field
+    value="{{ text4 }}"
+    label="教师发布4："
+    placeholder="请输入内容"
+    required
+    border="{{ false }}"
+  />
+  <van-field
+    value="{{ text5 }}"
+    label="教师发布5："
+    placeholder="请输入内容"
+    required
+    border="{{ false }}"
+  />
+  <van-field
+    value="{{ text6 }}"
+    label="教师发布6："
+    placeholder="请输入内容"
+    required
+    border="{{ false }}"
+  />
+  <van-field
+    value="{{ text7 }}"
+    label="教师发布7："
+    placeholder="请输入内容"
+    required
+    border="{{ false }}"
+  />
+  <van-field
+    value="{{ text8 }}"
+    label="教师发布8："
+    placeholder="请输入内容"
+    required
+    border="{{ false }}"
+  />
+  <van-field
+    value="{{ text9 }}"
+    label="教师发布9："
+    placeholder="请输入内容"
+    required
+    border="{{ false }}"
+  />
+  <van-field
+    value="{{ text10 }}"
+    label="教师发布10："
+    placeholder="请输入内容"
+    required
+    border="{{ false }}"
+  />
+  <van-field
+    value="{{ text11 }}"
+    label="教师发布11："
+    placeholder="请输入内容"
+    required
+    border="{{ false }}"
+  />
+  <van-field
+    value="{{ text12 }}"
+    label="教师发布12："
+    placeholder="请输入内容"
+    required
+    border="{{ false }}"
+  />
+  
+  <van-field
+    value="{{ text13 }}"
+    label="教师发布13："
+    placeholder="请输入内容"
+    required
+    border="{{ false }}"
+  />
+  <van-field
+    value="{{ text14 }}"
+    label="教师发布14："
+    placeholder="请输入内容"
+    required
+    border="{{ false }}"
+  /><van-field
+    value="{{ text15}}"
+    label="教师发布15："
+    placeholder="请输入内容"
+    required
+    border="{{ false }}"
+  />
+  <van-field
+    value="{{ text16 }}"
+    label="教师发布16："
+    placeholder="请输入内容"
+    required
+    border="{{ false }}"
+  />
+  <van-field
+    value="{{ text17 }}"
+    label="教师发布17："
+    placeholder="请输入内容"
+    required
+    border="{{ false }}"
+  />
+  <van-field
+    value="{{ text18 }}"
+    label="教师发布18："
+    placeholder="请输入内容"
+    required
+    border="{{ false }}"
+  />
+  <van-field
+    value="{{ text19 }}"
+    label="教师发布19："
+    placeholder="请输入内容"
+    required
+    border="{{ false }}"
+  />
+  <van-field
+    value="{{ text20 }}"
+    label="教师发布20："
+    placeholder="请输入内容"
+    required
+    border="{{ false }}"
+  />
+  <van-field
+    value="{{ text21 }}"
+    label="教师发布21："
+    placeholder="请输入内容"
+    required
+    border="{{ false }}"
+  />
+  <van-field
+    value="{{ text22 }}"
+    label="教师发布22："
+    placeholder="请输入内容"
+    required
+    border="{{ false }}"
+  />
+  <van-field
+    value="{{ text23 }}"
+    label="教师发布23："
+    placeholder="请输入内容"
+    required
+    border="{{ false }}"
+  />
+  <van-field
+    value="{{ text24 }}"
+    label="教师发布24："
+    placeholder="请输入内容"
+    required
+    border="{{ false }}"
+  />
+
+  <van-field
+    value="{{ text25 }}"
+    label="教师发布25："
+    placeholder="请输入内容"
+    required
+    border="{{ false }}"
+  />
+  <van-field
+    value="{{ text26 }}"
+    label="教师发布26："
+    placeholder="请输入内容"
+    required
+    border="{{ false }}"
+  /><van-field
+    value="{{ text27 }}"
+    label="教师发布27："
+    placeholder="请输入内容"
+    required
+    border="{{ false }}"
+  />
+  <van-field
+    value="{{ text28 }}"
+    label="教师发布28："
+    placeholder="请输入内容"
+    required
+    border="{{ false }}"
+  />
+  <van-field
+    value="{{ text29 }}"
+    label="教师发布29："
+    placeholder="请输入内容"
+    required
+    border="{{ false }}"
+  />
+  <van-field
+    value="{{ text30 }}"
+    label="教师发布30："
+    placeholder="请输入内容"
+    required
+    border="{{ false }}"
+  />
+  <van-field
+    value="{{ text31 }}"
+    label="教师发布31："
+    placeholder="请输入内容"
+    required
+    border="{{ false }}"
+  />
+
+  <van-field
+    value="{{ text32 }}"
+    label="教师发布32："
+    placeholder="请输入内容"
+    required
+    border="{{ false }}"
+  /><van-field
+    value="{{ text33 }}"
+    label="教师发布33："
+    placeholder="请输入内容"
+    required
+    border="{{ false }}"
+  />
+
+  <van-field
+    value="{{ text34 }}"
+    label="教师发布34："
+    placeholder="请输入内容"
+    required
+    border="{{ false }}"
+  />
+  <van-field
+    value="{{ text35 }}"
+    label="教师发布35："
+    placeholder="请输入内容"
+    required
+    border="{{ false }}"
+  />
+  <van-field
+    value="{{ text36 }}"
+    label="教师发布36："
+    placeholder="请输入内容"
+    required
+    border="{{ false }}"
+  />
+  <van-field
+    value="{{ text37 }}"
+    label="教师发布37："
+    placeholder="请输入内容"
+    required
+    border="{{ false }}"
+  />
+  <van-field
+    value="{{ text38 }}"
+    label="教师发布38："
+    placeholder="请输入内容"
+    required
+    border="{{ false }}"
+  />
+  <van-field
+    value="{{ text39 }}"
+    label="教师发布39："
+    placeholder="请输入内容"
+    required
+    border="{{ false }}"
+  />
+  <van-field
+    value="{{ text40 }}"
+    label="教师发布40："
+    placeholder="请输入内容"
+    required
+    border="{{ false }}"
+  />
+</van-cell-group>
+
+</form>
+<button class="btn"form-type="fabu">上传</button>

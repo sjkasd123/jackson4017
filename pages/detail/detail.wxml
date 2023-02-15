@@ -1,0 +1,100 @@
+<!--pages/detail/detail.wxml-->
+<view class='title'>信息汇总</view>
+<button class="zfc">刷新</button>
+<scroll-view scroll-x="true">
+    
+
+<view class="tableView">
+  <view class="table_header">
+    <view class="th th1">学号</view>
+    <view class="th th2">姓名</view>
+    <view class="th th3">姓名</view>
+    <view class="th th4">姓名</view>
+    <view class="th th5">姓名</view>
+    <view class="th th6">姓名</view>
+    <view class="th th7">姓名</view>
+    <view class="th th8">姓名</view>
+    <view class="th th9">姓名</view>
+    <view class="th th10">姓名</view>
+    <view class="th th11">姓名</view>
+    <view class="th th12">姓名</view>
+    <view class="th th13">姓名</view>
+    <view class="th th14">姓名</view>
+    <view class="th th15">姓名</view>
+    <view class="th th16">姓名</view>
+    <view class="th th17">姓名</view>
+    <view class="th th18">姓名</view>
+    <view class="th th19">姓名</view>
+    <view class="th th20">姓名</view>
+    <view class="th th21">姓名</view>
+    <view class="th th22">姓名</view>
+    <view class="th th23">姓名</view>
+    <view class="th th24">姓名</view>
+    <view class="th th25">姓名</view>
+    <view class="th th26">姓名</view>
+    <view class="th th27">姓名</view>
+    <view class="th th28">姓名</view>
+    <view class="th th29">姓名</view>
+    <view class="th th30">姓名</view>
+    <view class="th th31">姓名</view>
+    <view class="th th32">姓名</view>
+    <view class="th th33">姓名</view>
+    <view class="th th34">姓名</view>
+    <view class="th th35">姓名</view>
+    <view class="th th36">姓名</view>
+    <view class="th th37">姓名</view>
+    <view class="th th38">姓名</view>
+    <view class="th th39">姓名</view>
+    <view class="th th40">姓名</view>
+  </view>
+  <block wx:for="{{ listData }}" wx:for-item="check1" wx:key="key">
+    <view class="table_cell">
+      
+            <view class="td td1">{{check1.time}}</view>
+            <view class="td td2">{{check1.date}}</view>
+            <view class="td td3">{{check1.name}}</view>
+            <view class="td td4">{{check1.name}}</view>
+            <view class="td td5">{{check1.name}}</view>
+            <view class="td td6">{{check1.name}}</view>
+            <view class="td td7">{{check1.name}}</view>
+            <view class="td td8">{{check1.name}}</view>
+            <view class="td td9">{{check1.name}}</view>
+            <view class="td td10">{{check1.name}}</view>
+            <view class="td td11">{{check1.name}}</view>
+            <view class="td td12">{{check1.name}}</view>
+            <view class="td td13">{{check1.name}}</view>
+            <view class="td td14">{{check1.name}}</view>
+            <view class="td td15">{{check1.name}}</view>
+            <view class="td td16">{{check1.name}}</view>
+            <view class="td td17">{{check1.name}}</view>
+            <view class="td td18">{{check1.name}}</view>
+            <view class="td td19">{{check1.name}}</view>
+            <view class="td td20">{{check1.name}}</view>
+            <view class="td td21">{{check1.name}}</view>
+            <view class="td td22">{{check1.name}}</view>
+            <view class="td td23">{{check1.name}}</view>
+            <view class="td td24">{{check1.name}}</view>
+            <view class="td td25">{{check1.name}}</view>
+            <view class="td td26">{{check1.name}}</view>
+            <view class="td td27">{{check1.name}}</view>
+            <view class="td td28">{{check1.name}}</view>
+            <view class="td td29">{{check1.name}}</view>
+            <view class="td td30">{{check1.name}}</view>
+            <view class="td td31">{{check1.name}}</view>
+            <view class="td td32">{{check1.name}}</view>
+            <view class="td td33">{{check1.name}}</view>
+            <view class="td td34">{{check1.name}}</view>
+            <view class="td td35">{{check1.name}}</view>
+            <view class="td td36">{{check1.name}}</view>
+            <view class="td td37">{{check1.name}}</view>
+            <view class="td td38">{{check1.name}}</view>
+            <view class="td td39">{{check1.name}}</view>
+            <view class="td td40">{{check1.name}}</view>
+
+            
+     
+    </view>
+  </block>
+
+</view>
+</scroll-view>

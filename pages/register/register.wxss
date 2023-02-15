@@ -1,0 +1,21 @@
+/* pages/register/register.wxss */
+.root_top{
+    margin-left:50rpx;
+    margin-top:70rpx;
+
+}
+.item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40rpx;
+    
+}
+.item input{
+    border-bottom: 1px solid gray;
+    padding: 15rpx;
+}
+.btn{
+    background: #2b4b6b;
+    color: white;
+    margin: 40rpx 100rpx;
+}

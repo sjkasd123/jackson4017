@@ -1,0 +1,52 @@
+<!--pages/main/main.wxml-->
+<swiper  autoplay indicator-dots>
+    <swiper-item>
+        <image src="/icon/1.jpg" mode=""/>
+    </swiper-item>
+    <swiper-item>
+        <image src="/icon/2.jpg" mode=""/>
+    </swiper-item>
+</swiper>
+<view class="grid-list">
+    <view class="grid-item">
+        <image src="/icon/认证.png" mode=""/>
+        <text>尚未开发...</text>
+    </view>
+    <navigator class="grid-item" url="/pages/add.1/add.1">
+        <image src="/icon/任务.png" mode=""/>
+        <text>信息录入</text>
+    </navigator>
+    <view class="grid-item">
+        <image src="/icon/优惠券.png" mode=""/>
+        <text>其他</text>
+    </view>
+    <view class="grid-item">
+        <image src="/icon/会员码.png" mode=""/>
+        <text>其他</text>
+    </view>
+    <view class="grid-item">
+        <image src="/icon/关于我们.png" mode=""/>
+        <text>其他</text>
+    </view>
+    <view class="grid-item">
+        <image src="/icon/积分.png" mode=""/>
+        <text>其他</text>
+    </view>
+    <view class="grid-item">
+        <image src="/icon/营业执照.png" mode=""/>
+        <text>其他</text>
+    </view>
+    <view class="grid-item">
+        <image src="/icon/认证.png" mode=""/>
+        <text>其他</text>
+    </view>
+    <navigator  class="grid-item"url="/pages/form/form">
+        
+            <image src="/icon/记录.png" mode=""/>
+            <text>统计</text>
+    
+    </navigator>
+   
+      
+    
+</view>

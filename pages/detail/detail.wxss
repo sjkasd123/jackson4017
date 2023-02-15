@@ -1,0 +1,116 @@
+/* pages/detail/detail.wxss */
+.title{
+    width: 100%;
+    text-align: center;
+    font-size: 50rpx;
+    font-weight: 900
+  }
+  .tableView{
+    border:1px solid #000;
+    border-right:0;
+    border-bottom: 0;
+    width: 98%;
+    margin-left: 1%;
+  }
+  /* 表头 */
+  .table_header{
+    display: flex;
+    justify-content: space-between; /* 项目位于各行之间留有空白的容器内。 */
+    width: 100%;
+    font-size: 35rpx;
+    color: #330e0e;
+    text-align: center;
+    font-weight: 1000;
+  } 
+  .th{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80rpx;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    
+  }
+  
+  /* 表格cell */
+  .table_cell{
+    display: flex;
+    justify-content: space-between; /* 项目位于各行之间留有空白的容器内。 */
+    width: 100%;
+    font-size: 25rpx;
+    color: #330e0e;
+    text-align: center;
+    
+  }
+  .td{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60rpx;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    
+    
+  } 
+  .td1,.td2{
+    width: 25%
+  } 
+  .td3{
+      width: 20%;
+  }
+  .td4{
+    width: 30%
+  }
+ .btn{
+     background-color: #2b4b6b;
+     color: white;
+     height: 70%;
+     width: 80%;
+     font: 1em sans-serif;
+ }
+ .xx{
+     color: dodgerblue;
+     align-items: center;
+     
+ }
+ .header{
+     display: flex;
+     
+    
+     
+ }
+ .search{
+     width: 400rpx;
+     height: 60rpx;
+     position: relative;
+     display: flex;
+
+     
+ }
+ .search input{
+     width: 200rpx;
+     height: 50rpx;
+     border: 1rpx solid black;
+    position: relative;
+     box-sizing: border-box;
+    
+
+     
+
+     
+
+ }
+ .btn1{
+     width: 100rpx;
+     height: 60rpx;
+     background-color: #2b4b6b;
+     color: white;
+     font-size: 20rpx;
+     line-height: 60rpx;
+
+     
+     
+
+ }
+     
+ 

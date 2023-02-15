@@ -1,0 +1,52 @@
+<!--pages/info/info.wxml-->
+<van-cell-group>
+  <van-field
+    value="{{ name }}"
+    required
+    clearable
+    label="姓名"
+    icon="question-o"
+    placeholder="请输入用姓名"
+    bind:click-icon="onClickIcon"
+  />
+
+  <van-field
+    value="{{ sex }}"
+    required
+    clearable
+    label="性别"
+    icon="question-o"
+    placeholder="请输入性别"
+    bind:click-icon="onClickIcon"
+  />
+  <van-field
+    value="{{ id }}"
+    required
+    clearable
+    label="身份证"
+    icon="question-o"
+    placeholder="请输入身份证"
+    bind:click-icon="onClickIcon"
+  />
+  <van-field
+    value="{{ adress }}"
+    required
+    clearable
+    label="住址"
+    icon="question-o"
+    placeholder="请输入住址"
+    bind:click-icon="onClickIcon"
+  />
+
+  <van-field
+    value="{{ other }}"
+    label="其他"
+    placeholder=""
+    required
+    border="{{ false }}"
+  />
+</van-cell-group>
+<view class="btn"> 
+   <button  class="btn1">提交</button>
+</view>
+

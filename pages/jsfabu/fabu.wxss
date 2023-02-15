@@ -1,0 +1,12 @@
+/* pages/jsfabu/fabu.wxss */
+.dd{
+    margin:20rpx 15rpx;
+    border:1rpx solid grey;
+    width: 300rpx;
+}
+.btn{
+    background: #2b4b6b;
+    color: white;
+    margin: 40rpx 80rpx;
+    margin-top: 50rpx;
+}   

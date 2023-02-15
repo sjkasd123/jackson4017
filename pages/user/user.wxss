@@ -1,0 +1,24 @@
+/* pages/user/user.wxss */
+page{
+    background: #2b4b6b;
+}
+.top_img{
+    margin-top: 50rpx;
+    width: 200rpx;
+    height:200rpx;
+    border-radius:50%;
+    margin-right: 40rpx;
+}
+.top_root{
+    display: flex;
+    margin: 40rpx;
+    align-items: center;
+}
+.top_name{
+    font-size:35rpx;
+    color:white;
+}
+.login_out{
+    font-size: 30rpx;
+    margin-top: 20rpx;
+}
